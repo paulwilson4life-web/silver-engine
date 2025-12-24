@@ -3,7 +3,7 @@ import { Camera, Clock, Image, Zap, Users, CheckCircle2, Info, MapPin, ShieldChe
 
 const App = () => {
   // 1. CHANGE THIS TO YOUR ACTUAL WHATSAPP NUMBER (Include country code, no '+')
-  const WHATSAPP_NUMBER = "2348000000000"; 
+  const WHATSAPP_NUMBER = "2348165026344"; 
 
   const packages = [
     {
@@ -52,7 +52,7 @@ const App = () => {
     const message = encodeURIComponent(
       `Hello Jimi Pixels! 👋\n\nI'm interested in booking the *${pkgName}* package for an upcoming event. \n\nCould you please provide more details on availability?`
     );
-    window.open(`https://wa.me/2348165026344?text=${message}`, '_blank');
+    window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${message}`, '_blank');
   };
 
   return (
