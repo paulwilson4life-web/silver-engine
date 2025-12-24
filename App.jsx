@@ -50,7 +50,7 @@ const App = () => {
 
   const handleBooking = (pkgName) => {
     const message = encodeURIComponent(
-      `Hello Jimi Pixels! 👋\n\nI'm interested in booking the *${pkgName}* package for an upcoming event. \n\nCould you please provide more details on availability?`
+      `Heyy Jimi! 👋\n\nI'm interested in the *${pkgName}* package for an event on [date]. \n\nPlease let me know if you're available and how we can proceed.`
     );
     window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${message}`, '_blank');
   };
